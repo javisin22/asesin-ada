@@ -1,0 +1,54 @@
+.cartadesplegable-body {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: auto;
+    height: auto;
+    background-color: red;
+    z-index: 12;
+
+    background-color: #f3f3f3;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    transition: all 0.5s ;
+    border: 20px solid #1315a2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cartadesplegable-body .desplegable {
+    rotate: 90deg;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+
+    right: 50%;
+    transform: translateY(-50%);
+    top: -20%;
+    
+    background-color: #1315a2;
+    color: #ffffff;
+
+    border-radius: 10px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 10px;
+}
+
+.cartadesplegable-body .desplegable:hover {
+    cursor: pointer;
+    background-color: #3a3dd2;
+}
+
+.cartadesplegable-body .cartadesplegable-cart-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-grow: 1;
+    gap: 20px;
+}

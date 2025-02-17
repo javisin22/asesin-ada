@@ -1,0 +1,56 @@
+.carta {
+    background: rgb(55,57,138);
+    background: radial-gradient(circle, rgba(55,57,138,1) 0%, rgba(19,19,61,1) 59%, rgba(3,4,51,1) 100%);
+
+    color: #fff;
+    width: 190px;
+    aspect-ratio: 1/1.4;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    transition: all 0.2s;
+}
+
+.carta-hover:hover {
+    cursor: pointer;
+    background: rgb(55,57,138);
+    background: radial-gradient(circle, rgba(55,57,138,1) 0%, rgba(19,19,61,1) 79%, rgba(3,4,51,1) 100%);
+    scale: 1.02;
+}
+
+.carta .image {
+    position: relative;
+    width: 80%;
+    height: 190px;
+}
+
+.carta .image img:first-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+
+.carta .image img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 100%;
+    opacity: 1;
+    filter: blur(10px);
+}
+
+.carta h1 {
+    font-weight: 650;
+    font-size: 26px ;
+}

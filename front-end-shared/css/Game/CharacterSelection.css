@@ -1,0 +1,113 @@
+.characters-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 50px;
+
+  box-sizing: border-box;
+  /* border: none; */
+  border: 20px solid #2c89a8;
+  border-radius: 18px;
+
+  /* width: 45%; */
+  /* height: 40%; */
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.characters-selection .characters-selection-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.individual-character {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+
+  background-color: #f8f8f8;
+  border: 1px solid black;
+  transition: all 0.3s;
+
+  &.mrsoper {
+    background-color: #80b37e;
+  }
+
+  &.missredes {
+    background-color: #fcfd7f;
+  }
+
+  &.mrprog {
+    background-color: #7fd2e7;
+  }
+
+  &.missfisica {
+    background-color: #fdfdfd;
+  }
+
+  &.mrdiscreto {
+    background-color: #dea9fb;
+  }
+
+  &.missia {
+    background-color: #fc7e7e;
+  }
+}
+
+.individual-character:hover {
+  &.mrsoper {
+    background-color: #539551;
+  }
+
+  &.missredes {
+    background-color: #f5f54e;
+  }
+
+  &.mrprog {
+    background-color: #4cc3e0;
+  }
+
+  &.missfisica {
+    background-color: #cccccc;
+  }
+
+  &.mrdiscreto {
+    background-color: #c57deb;
+  }
+
+  &.missia {
+    background-color: #f45e5e;
+  }
+}
+
+.individual-character.selected {
+  background-color: #2a2a2a;
+  font-style: italic;
+  cursor: not-allowed;
+
+  &::before {
+    content: "(ya elegido)";
+  }
+
+  &:hover {
+    background-color: #2a2a2a;
+  }
+}

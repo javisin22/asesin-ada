@@ -1,0 +1,46 @@
+.navbar-game {
+  position: absolute; /* Make the navbar fixed */
+  z-index: 15;
+  top: 0; /* Position at the top */
+  left: 15%; /* Position on the left */
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background-color: #1315a2;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar-game .burger {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  user-select: none;
+  min-width: 30px;
+}
+
+.navbar-game .menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #1315a2;
+  height: 32px;
+  width: 60vw;
+  min-width: fit-content;
+  margin-left: 20px;
+}
+
+.navbar-game .menu p {
+  cursor: pointer;
+}
+
+/* .navbar-game .menu p:nth-last-child(2) {
+  margin-left: auto;
+} */
+
+.navbar-game .menu p:last-child {
+  margin-left: auto;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+}

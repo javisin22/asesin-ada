@@ -1,0 +1,10 @@
+.titulos th,
+th {
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 10px;
+    width: 180px;
+    margin: 0;
+}

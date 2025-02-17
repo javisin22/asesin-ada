@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Management_plan" company="UNIZAR-30226-2024-01" webLink="http://" view-date="2024-02-19" view-index="0" gantt-divider-location="366" resource-divider-location="300" version="3.3.3307" locale="es_ES">
+    <description><![CDATA[Management plan for the workflow to follow during the project]]></description>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#99ccff #f4f4f4 #ff0000 #ff3333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="79" uid="d06b7922be604015bb04c858d2a97b5a" name="Hitos" meeting="false" start="2024-03-15" duration="58" complete="0" thirdDate="2024-04-04" thirdDate-constraint="0" expand="true">
+            <task id="55" uid="df1b473e11eb4d94ae7103e9c0c5fb0b" name="Entrega Intermedia" color="#ff3333" meeting="true" start="2024-03-15" duration="0" complete="0" thirdDate="2024-02-22" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="66" uid="49a323227fa844e0bcf33549c20c80d2" name="Entrega resultados P4" color="#ff3333" meeting="true" start="2024-04-21" duration="0" complete="0" thirdDate="2024-04-07" thirdDate-constraint="0" expand="true"/>
+            <task id="82" uid="a52f4bf544df478ab17922c7294898af" name="Fin implementación Web" color="#ff0000" meeting="true" start="2024-04-30" duration="0" complete="0" thirdDate="2024-04-07" thirdDate-constraint="0" expand="true"/>
+            <task id="68" uid="f402776f335540c18af1c116e9a8f5e9" name="Fin proyecto" color="#ff0000" meeting="true" start="2024-05-12" duration="0" complete="0" thirdDate="2024-04-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="72" uid="cf98b3d3c92e4f6f990d66f9a907cbc3" name="Documentación" meeting="false" start="2024-02-08" duration="57" complete="0" expand="false">
+            <task id="73" uid="49dd890fead9435098fce9b555ac1ca2" name="Propuesta técnica" meeting="false" start="2024-02-08" duration="6" complete="0" thirdDate="2024-04-04" thirdDate-constraint="0" expand="true"/>
+            <task id="83" uid="5d234fa4b2654aae9822fab3aebc11b4" name="Plan de gestión, análisis y diseño v1" meeting="false" start="2024-03-01" duration="15" complete="0" thirdDate="2024-03-24" thirdDate-constraint="0" expand="true"/>
+            <task id="74" uid="7a4eb7a875eb42588b8dba056eadfeaa" name="Diagramas" meeting="false" start="2024-04-04" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="30" uid="c6e7bdef63cd4ff99350feb35159636b" name="Backend" meeting="false" start="2024-02-23" duration="72" complete="0" expand="true">
+            <task id="31" uid="43ca7c0b327f4ea9a13e25f63a1ea0e0" name="modelo E/R" meeting="false" start="2024-02-23" duration="2" complete="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" uid="59ebe45e6d324fb99a4be7e54518c2f8" name="creación tablas" meeting="false" start="2024-02-25" duration="1" complete="0" expand="true"/>
+            <task id="34" uid="31e917130be94d6ca41c4878c703abea" name="despliegue base de datos" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="33" uid="27f3d7819ca24e30b0c4b953159477c5" name="conexión con ambos frontends" meeting="false" start="2024-02-28" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" uid="19e90aab018f47d1821d0300080118d7" name="manejo peticiones http" meeting="false" start="2024-02-29" duration="8" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Correcta gestión de peticiones http de los clientes. Ejemplos pueden ser: creación de cuenta (POST: insert en tabla usuario), guardado efectivo de tablero, cartas y tarjeta en cada ronda...]]></notes>
+            </task>
+            <task id="61" uid="cf88fd2003d74e0abfb3e3ad709d837b" name="web-sockets, lógica partida" meeting="false" start="2024-03-07" duration="50" complete="0" thirdDate="2024-03-07" thirdDate-constraint="0" expand="true"/>
+            <task id="69" uid="4e3db1268d454ddd91812150c28ee860" name="reparto y asignación cartas" meeting="false" start="2024-03-27" duration="26" complete="0" thirdDate="2024-04-13" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[selección de cartas solución (una de cada tipo), asignación a cada personaje 3 cartas]]></notes>
+            </task>
+            <task id="44" uid="e3b06cc50bac4304b8da61c8a5dc3656" name="Bots" color="#99ccff" meeting="false" start="2024-03-26" duration="30" complete="0" thirdDate="2024-03-04" thirdDate-constraint="0" expand="false">
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+                <task id="110" uid="1d8836c2b94d4dbf8482e3e92c3bcce4" name="Bfs para el movimiento" meeting="false" start="2024-03-26" duration="4" complete="0" expand="true">
+                    <depend id="111" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="111" uid="4b56be77a90141f6b3ee189144cdbb44" name="Movimiento de los bots" meeting="false" start="2024-03-30" duration="8" complete="0" expand="true">
+                    <depend id="117" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="117" uid="418bf6f5cd224faf909829e35faf4129" name="Acusación/sospecha bots" meeting="false" start="2024-04-07" duration="2" complete="0" expand="true"/>
+                <task id="115" uid="806c06d514cd43e3a6392934130ae9b9" name="Actualización de la tarjeta bots" meeting="false" start="2024-04-12" duration="13" complete="0" expand="false">
+                    <task id="112" uid="d07cdafe416342209ba55857aca68d3f" name="Nivel 1 bots" meeting="false" start="2024-04-12" duration="7" complete="0" expand="true">
+                        <depend id="113" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="113" uid="1d8c3b4e7e504c2699382d8b7feb0993" name="Nivel 2 bots" meeting="false" start="2024-04-19" duration="3" complete="0" expand="true">
+                        <depend id="114" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="114" uid="71bed86f5c044ad6a71e554e04438730" name="Nivel 3 bots" meeting="false" start="2024-04-22" duration="3" complete="0" expand="true"/>
+                </task>
+                <task id="116" uid="0849f60fa9924dcb9090eedf5e2cdf7b" name="Creación bots" meeting="false" start="2024-04-20" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="118" uid="96a0350c8cb24986b2b58c4516d87ede" name="Pruebas de los bots" meeting="false" start="2024-04-25" duration="2" complete="0" expand="true">
+                <depend id="119" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="119" uid="89485a1ec1d84cc5bcc5a02322660bd1" name="Integración bots en partidas" meeting="false" start="2024-04-27" duration="8" complete="0" expand="true"/>
+            <task id="67" uid="63a0e6a08bd548acb62e44321e5150f9" name="guardado estado entre rondas" meeting="false" start="2024-04-22" duration="8" complete="0" thirdDate="2024-04-09" thirdDate-constraint="0" expand="true"/>
+            <task id="84" uid="6c05f50f7f384aa9a82ada4b2edde55b" name="pruebas¿?" meeting="false" start="2024-03-24" duration="1" complete="0" thirdDate="2024-03-24" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="36" uid="59c54c13913941d2b7ee9071b717a338" name="Front-end Web" meeting="false" start="2024-02-22" duration="69" complete="0" thirdDate="2024-02-26" thirdDate-constraint="0" expand="true">
+            <task id="47" uid="752f7e5d5eba4664ad02e9637afe134c" name="tarjeta de sospecha" meeting="false" start="2024-02-22" duration="2" complete="0" thirdDate="2024-02-22" thirdDate-constraint="0" expand="true"/>
+            <task id="43" uid="2ad2f52d0b074285bff7a25af9c3b6f8" name="tablero vacío (no funcional)" meeting="false" start="2024-02-26" duration="3" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="37" uid="4f601e9c288349fd96ffba536bffb770" name="crear cuenta / login" meeting="false" start="2024-03-07" duration="2" complete="0" thirdDate="2024-03-07" thirdDate-constraint="0" expand="true"/>
+            <task id="38" uid="0f966f959a3746dea38c30971202069e" name="menú principal" meeting="false" start="2024-03-18" duration="32" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Dentro se incluyen:
+-sección donde se muestra el nombre de usuario junto a una barra de la experiencia que posee ese usuario
+-sección donde se muestra una imagen del tablero del juego
+-sección donde aparecen las distintas posibilidades para unirser a una partida: nueva partida (multiplayer), nueva partida (solitario), unirse a partida existente, ...]]></notes>
+            </task>
+            <task id="50" uid="7af8c1cf73d3436fbc1caed80276dec6" name="cambio contraseña" meeting="false" start="2024-03-19" duration="1" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Pantalla relativa al cambio de la password. Será accesible desde la barra de navegación de la parte superior, entrando en 'Configuración', y desde dentro de una partida (clicando en el nombre de usuario en la barra de navegación de la parte superior)]]></notes>
+            </task>
+            <task id="42" uid="5388b7bd78dc4cae848b5ac9dfd079fd" name="enrutamiento" meeting="false" start="2024-03-07" duration="1" complete="0" expand="true"/>
+            <task id="45" uid="0d41a949e1de490784b83f94330744ed" name="chat en tiempo real" meeting="false" start="2024-03-08" duration="26" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="64" uid="b698b89291764b08bc971c844236d011" name="lógica de partida" meeting="false" start="2024-03-18" duration="32" complete="0" thirdDate="2024-03-14" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Lógica relativa a los eventos intercambiados mediante los web-sockets con el backend para poder satisfacer la máquina de estados del backend.	]]></notes>
+            </task>
+            <task id="48" uid="c6845a0ab2604c22a22f010299a97519" name="cartas" meeting="false" start="2024-03-13" duration="5" complete="0" expand="true">
+                <task id="51" uid="bb8ee73c507b40d2b043536543567363" name="diseño de las cartas" meeting="false" start="2024-03-13" duration="3" complete="0" thirdDate="2024-03-15" thirdDate-constraint="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" uid="051973fe359247b2854c9c946187982e" name="cartas en partida" meeting="false" start="2024-03-16" duration="2" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[hace alusión a la inclusión de las cartas en una partida, en la parte inferior de la pantalla con un desplegable para mostrarlas u ocultarlas.]]></notes>
+                </task>
+            </task>
+            <task id="57" uid="0da8ab2129ed44cd99fe535c53a3bb4c" name="funcionalidad de juego" meeting="false" start="2024-03-29" duration="30" complete="0" thirdDate="2024-02-26" thirdDate-constraint="0" expand="false">
+                <task id="49" uid="96988d520a10488db88fa39571e33119" name="dados" meeting="false" start="2024-04-16" duration="3" complete="0" thirdDate="2024-04-02" thirdDate-constraint="0" expand="true"/>
+                <task id="71" uid="897ecc3ccd554b63862cf68f1062c6a7" name="tablero (funcional)" meeting="false" start="2024-04-18" duration="6" complete="0" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Fichas en tablero con cambios efectivos de los movimientos a todos los jugadores de una misma partida.]]></notes>
+                </task>
+                <task id="58" uid="24c5a8ef44f9473c828144593aef8320" name="gestión turnos" meeting="false" start="2024-03-29" duration="30" complete="0" thirdDate="2024-03-29" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[(actualizar cuando se gestione el turno de los bots)]]></notes>
+                </task>
+                <task id="59" uid="c11227a50a66482d8c9716632ad24833" name="seleccion cartas para preguntar" meeting="false" start="2024-04-06" duration="3" complete="0" thirdDate="2024-02-20" thirdDate-constraint="0" expand="true"/>
+                <task id="60" uid="6cc3ae55112f48f1ad3a020e0b9f1d33" name="contador de tiempo restante" meeting="false" start="2024-04-07" duration="2" complete="0" thirdDate="2024-03-26" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="62" uid="a2d90639ec704b5dbe4be51e8908ef29" name="sesiones de partidas" meeting="false" start="2024-04-22" duration="8" complete="0" thirdDate="2024-03-14" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[existe el concepto de sesión de juego, para poder permitir unirse a una partida a partir de un id (útil también en caso de que se desee continuar una misma partida en el front-end opuesto)]]></notes>
+            </task>
+            <task id="56" uid="0c2484b0fa004c6aa93864959efe1a2b" name="guardar estado partida entre rondas" color="#99ccff" meeting="false" start="2024-04-28" duration="3" complete="0" thirdDate="2024-04-27" thirdDate-constraint="0" expand="true"/>
+            <task id="85" uid="b0a27077561341d8b290ba5d3a71658d" name="pruebas (preguntar Ana)" meeting="false" start="2024-03-24" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="77" uid="068b53dd424e4e83b87f02c10e4af6c1" name="Front-end Desktop" meeting="false" start="2024-02-25" duration="79" complete="0" expand="true">
+            <task id="88" uid="325780f90e3e4af7b77d68b4a4ac2fef" name="tablero" meeting="false" start="2024-02-28" duration="16" complete="0" expand="true"/>
+            <task id="87" uid="9854689158f0407797d3712602a62d3f" name="empaquetado con electron" meeting="false" start="2024-02-28" duration="1" complete="0" expand="true"/>
+            <task id="78" uid="3f36644ff6824db39f90476640b0ad03" name="tarjeta de sospecha" meeting="false" start="2024-02-25" duration="11" complete="0" thirdDate="2024-04-04" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Añadir las mismas tareas que front web pero con las fechas correspondientes para desktop]]></notes>
+            </task>
+            <task id="93" uid="6baff6e159b0492b846257b497c7374d" name="logica de partida" meeting="false" start="2024-04-14" duration="30" complete="0" expand="true"/>
+            <task id="104" uid="992bb77291544360b309772d67de1339" name="home page" meeting="false" start="2024-03-28" duration="7" complete="0" expand="true"/>
+            <task id="91" uid="4f5f55144f69459b907a149106fd4101" name="cambio contraseña" meeting="false" start="2024-03-13" duration="6" complete="0" expand="true"/>
+            <task id="106" uid="6e02e5ccf410484f95a95e293a1f8beb" name="pruebas ANA" meeting="false" start="2024-05-02" duration="12" complete="0" expand="true"/>
+            <task id="90" uid="8c16566c57e54d63980e16809e3bcc5a" name="crear cuenta/login" meeting="false" start="2024-03-12" duration="10" complete="0" expand="true"/>
+            <task id="89" uid="0d7a2434caca40a28c27d730b85b71ec" name="chat" meeting="false" start="2024-03-17" duration="12" complete="0" expand="true"/>
+            <task id="98" uid="de9f12c6f2c94d86bf3e6493d812ec76" name="turno" meeting="false" start="2024-04-17" duration="26" complete="0" expand="true">
+                <task id="109" uid="abac29185eba45c78909349da8155433" name="carrusel" meeting="false" start="2024-04-20" duration="3" complete="0" expand="true"/>
+                <task id="97" uid="d8efb3afb447433291368606ca4a5ed1" name="carta shower" meeting="false" start="2024-04-17" duration="16" complete="0" expand="true"/>
+                <task id="99" uid="0db51e57627d4f06b8bd23b3437a624d" name="turno componente" meeting="false" start="2024-04-17" duration="26" complete="0" expand="true"/>
+                <task id="100" uid="e21148d5889a4e1cad4470fe369a1689" name="dados" meeting="false" start="2024-04-17" duration="4" complete="0" expand="true"/>
+                <task id="101" uid="94d4eef7ac8241e2b76659d0e038a089" name="sospecha" meeting="false" start="2024-04-19" duration="7" complete="0" expand="false">
+                    <task id="102" uid="7b2c9ce3ede7477fbf296e4e655e42f7" name="elegir casilla" meeting="false" start="2024-04-19" duration="5" complete="0" expand="true"/>
+                    <task id="103" uid="866959cb91f24374a47f1e80d7cbe8f5" name="tarjeta de sospecha" meeting="false" start="2024-04-19" duration="7" complete="0" expand="true"/>
+                </task>
+            </task>
+            <task id="105" uid="7ee03c5ac2fd4a97bd4ece070fb36b2c" name="toolbar" meeting="false" start="2024-03-30" duration="4" complete="0" expand="true"/>
+            <task id="94" uid="73bfb964df3c4dd888fd3e47f2808881" name="cartas" meeting="false" start="2024-03-30" duration="11" complete="0" expand="true">
+                <task id="95" uid="f8dfcc0cee64471c9233a8c863fdc24c" name="cartas en partida" meeting="false" start="2024-03-30" duration="11" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="107" uid="35d65f3518b544b089e33865ec5f6866" name="abandonar partida" meeting="false" start="2024-03-20" duration="4" complete="0" expand="true"/>
+        <task id="108" uid="445ec0c9d45f41b1b9382378744b84b1" name="conectar con la base" meeting="false" start="2024-03-12" duration="2" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

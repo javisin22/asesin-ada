@@ -1,0 +1,84 @@
+.texts  * {
+    user-select: none;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.room-name {
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texts .room-name-0 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-1 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-2 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-3 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-4 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-5 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-6 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-7 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-8 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-9 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+
+.texts .room-name-10 {
+    color: black;
+    top:41%;
+    left:38.5%;
+}
+

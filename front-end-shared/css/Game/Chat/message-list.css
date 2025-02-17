@@ -1,0 +1,12 @@
+.message-list {
+    /* position: absolute; */
+    list-style-type: none;
+    height: 75vh;
+    padding: 10px 10px 5px 10px;
+    margin: 0;
+    margin-left: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}

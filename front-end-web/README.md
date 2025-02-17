@@ -1,0 +1,7 @@
+# front-end-react
+
+*  1) Abrir con `VSCode` el repositorio front-end-web
+*  2) Entrar en directorio *front-end-react* --> `cd front-end-react`
+*  3) Ejecutar `npm install` para instalar todas las dependencias
+*  4) Ejecutar `npm run dev` para crear el acceso localhost
+*  5) Disfrutar de la aplicación

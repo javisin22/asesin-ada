@@ -1,0 +1,125 @@
+.celda {
+  /* width: 24px;
+    height: 24px; */
+  margin: 1px;
+}
+
+.room {
+  position: relative;
+  /* height: 26px;
+    width: 26px; */
+  margin: 0;
+  padding: 0;
+}
+
+.invalid {
+  /* width: 26px;
+    height: 26px; */
+  margin: 0;
+  opacity: 0;
+}
+
+.celda:hover {
+  background-color: #f2f2f2;
+}
+
+.celda-player img {
+  width: 26px;
+}
+
+.u {
+  top: 0;
+}
+.d {
+  bottom: 0;
+}
+.r {
+  right: 0;
+}
+.l {
+  left: 0;
+}
+
+.dark {
+  background-color: rgb(136, 86, 45);
+  color: white;
+}
+
+.light {
+  background-color: rgb(188, 116, 57);
+  color: black;
+}
+
+.selected {
+  background-color: rgb(44, 22, 6);
+  color: white;
+}
+
+.selected:hover {
+  background-color: rgb(52, 34, 20);
+}
+
+.room-1 {
+  background-color: rgb(153, 125, 183);
+  color: black;
+}
+
+.room-2 {
+  background-color: rgb(109, 152, 179);
+  color: black;
+}
+
+.room-3 {
+  background-color: rgb(240, 155, 116);
+  color: black;
+}
+
+.room-4 {
+  background-color: rgb(158, 197, 117);
+  color: black;
+}
+
+.room-5 {
+  background-color: rgb(250, 250, 250);
+  color: black;
+}
+
+.room-6 {
+  background-color: rgb(228, 227, 156);
+  color: black;
+}
+
+.room-7 {
+  background-color: rgb(232, 137, 199);
+  color: black;
+}
+
+.room-8 {
+  background-color: rgb(125, 127, 194);
+  color: black;
+}
+
+.room-9 {
+  background-color: rgb(166, 232, 237);
+  color: black;
+}
+
+.room-10 {
+  background-color: rgb(232, 111, 111);
+  color: black;
+}
+
+.room {
+  &.selected {
+    background-color: rgb(65, 56, 51);
+    color: white;
+  }
+}
+.room:hover {
+  background-color: none;
+}
+
+.filled svg circle {
+  stroke-width: 5px;
+  stroke: black;
+}

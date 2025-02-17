@@ -1,0 +1,45 @@
+div {
+  position: absolute;
+  height: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #1315a2;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+div:hover {
+  cursor: pointer;
+    background-color: #3a3dd2;
+  }
+  
+  div svg {
+    width: 30px;
+    height: 30px;
+    fill: #ffffff;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+    transition: all 1s;
+  }
+
+
+.chat {
+  right: -14%;
+}
+
+.tarjeta {
+  left: -7%;
+}
+
+.cartas{
+  right: -20%;
+  top: 35%;
+}

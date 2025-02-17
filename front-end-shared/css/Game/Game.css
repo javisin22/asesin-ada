@@ -1,0 +1,87 @@
+.game-characters-selection {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-game-button-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.start-game-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 40px;
+
+  box-sizing: border-box;
+  /* border: none; */
+  border: 20px solid #2c89a8;
+  border-radius: 18px;
+
+  width: 45%;
+  height: 40%;
+  background-color: #f8f8f8;
+}
+
+.start-game-button-container h1 {
+  margin: 0px 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+
+.start-game-button-container h3 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+
+}
+
+
+/* Query to set the gap according to the screen size */
+@media (max-height: 800px) {
+  .start-game-button-container {
+    height: 55%;
+    gap: 13%;
+  }
+}
+
+.start-game-button {
+  margin-bottom: 5px;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #2c89a8;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: 0.3s;
+}
+
+.start-game-button:hover {
+  background-color: #0e6c8a;
+  cursor: pointer;
+}

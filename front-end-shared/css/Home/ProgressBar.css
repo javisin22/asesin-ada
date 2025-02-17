@@ -1,0 +1,56 @@
+.container-progress {
+  /* margin: 0px 50px 50px 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container-styles {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.border {
+  position: absolute;
+  top: -10px;
+  left: -9px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  border: 10px solid #000000;
+}
+
+.filler-styles {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+  border-radius: inherit;
+  text-align: right;
+}
+
+.xp-percentage {
+  width: 30px;
+  /* width: fit-content; */
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.xp-level {
+  position: relative;
+  width: 81px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
